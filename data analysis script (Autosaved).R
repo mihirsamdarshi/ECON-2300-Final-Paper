@@ -8,7 +8,7 @@ familySex <- table(data$q2a, data$sex)
 cor(data$q2a, data$sex, use="complete.obs")
 familyEduc <- table(data$q2a, data$educ2)
 cor(data$q2a, data$educ2, use="complete.obs")
-barplot(familyLifeSatisfaction, main="Satisfaction with family life", names.arg=c("Very satisfied", "Somewhat satisfied", "Somewhat dissatisfied"))
+#barplot(familyLifeSatisfaction, main="Satisfaction with family life", names.arg=c("Very satisfied", "Somewhat satisfied", "Somewhat dissatisfied"))
 
 financialLifeSatisfaction <- table(data$q2b)
 financialParty <- table(data$q2b, data$party)
